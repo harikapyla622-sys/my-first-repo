@@ -1,9 +1,11 @@
+user_input = input("Enter some text: ")
+
 with open('sample.txt') as file:
     content = file.read()
     
     
 with open("user_file.txt", "w") as file:
-    file.write("user content")
+    file.write("user_input: " + user_input)
     
     
 #content_capitalized = content.upper()

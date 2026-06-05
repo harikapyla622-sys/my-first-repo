@@ -1,6 +1,11 @@
 with open('sample.txt') as file:
     content = file.read()
-
+    
+    
+with open("user_file.txt", "w") as file:
+    file.write("user content")
+    
+    
 #content_capitalized = content.upper()
 print("File content: ")
 #print(content_capitalized)
